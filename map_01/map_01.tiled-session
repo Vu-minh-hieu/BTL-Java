@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "assets/map01.tmx",
+    "activeFile": "map-tmx/map01.tmx",
     "expandedProjectPaths": [
         "assets",
         "."
@@ -17,8 +17,8 @@
         },
         "assets/Buildings-LF.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 1,
-            "scaleInEditor": 1
+            "scaleInDock": 0.75,
+            "scaleInEditor": 2
         },
         "assets/Buildings-Legacy-Fantasy.tsx": {
             "dynamicWrapping": false,
@@ -44,7 +44,7 @@
         },
         "assets/Interior-01-LF.tsx": {
             "scaleInDock": 1,
-            "scaleInEditor": 1
+            "scaleInEditor": 2
         },
         "assets/Interior-01-Legacy-Fantasy.tsx": {
             "dynamicWrapping": false,
@@ -54,7 +54,7 @@
         "assets/Props-Rocks-LF.tsx": {
             "dynamicWrapping": false,
             "scaleInDock": 1,
-            "scaleInEditor": 1
+            "scaleInEditor": 2
         },
         "assets/Props-Rocks-Legacy-Fantasy.tsx": {
             "dynamicWrapping": false,
@@ -67,7 +67,7 @@
             "scaleInEditor": 2
         },
         "assets/Tiles-debug-LF.tsx": {
-            "scaleInDock": 0.75,
+            "scaleInDock": 1,
             "scaleInEditor": 1
         },
         "assets/Tiles_Legacy_Fantasy.tsx": {
@@ -75,8 +75,8 @@
             "scaleInEditor": 1
         },
         "assets/Tree-Assets-LF.tsx": {
-            "scaleInDock": 1,
-            "scaleInEditor": 1
+            "scaleInDock": 1.5,
+            "scaleInEditor": 3
         },
         "assets/Tree-Assets-Legacy-Fantasy.tsx": {
             "dynamicWrapping": false,
@@ -119,11 +119,29 @@
             }
         },
         "map-tmx/map01.tmx": {
-            "scale": 0.5,
-            "selectedLayer": 4,
+            "expandedObjectLayers": [
+                5,
+                7,
+                4,
+                6,
+                3
+            ],
+            "scale": 0.125,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 5287,
-                "y": 629
+                "x": 396,
+                "y": 432
+            }
+        },
+        "map-tmx/map_boss_01.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.75,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 469.99999999999994,
+                "y": 342.66666666666663
             }
         },
         "map_01.tmx": {
@@ -139,13 +157,14 @@
             "scaleInEditor": 1
         }
     },
+    "frame.defaultDuration": 100,
     "last.externalTilesetPath": "C:/Users/Admin/OneDrive/Máy tính/BTL_JAVA/project/map_01/assets",
     "last.imagePath": "C:/Users/Admin/OneDrive/Máy tính/BTL_JAVA/temp_assets/Legacy Fantasy - Debug Map/Assets",
-    "map.height": 60,
+    "map.height": 30,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
-    "map.width": 500,
+    "map.width": 60,
     "openFiles": [
         "assets/Tiles-debug-LF.tsx",
         "assets/Tiles-LF.tsx",
@@ -155,15 +174,11 @@
         "assets/Interior-01-LF.tsx",
         "assets/Buildings-LF.tsx",
         "assets/Hive-LF.tsx",
-        "char/Idle-main-char-LF.tsx",
-        "mob/Idle-Sheet-Boar-LF.tsx",
-        "map-tmx/map-01.tmx",
-        "assets/map01.tmx"
+        "map-tmx/map01.tmx",
+        "map-tmx/map_boss_01.tmx"
     ],
     "project": "map_01.tiled-project",
     "recentFiles": [
-        "map-tmx/map-01.tmx",
-        "assets/map01.tmx",
         "assets/Tiles-debug-LF.tsx",
         "assets/Tiles-LF.tsx",
         "assets/Back-ground.tsx",
@@ -172,8 +187,10 @@
         "assets/Interior-01-LF.tsx",
         "assets/Buildings-LF.tsx",
         "assets/Hive-LF.tsx",
-        "char/Idle-main-char-LF.tsx",
-        "mob/Idle-Sheet-Boar-LF.tsx"
+        "map-tmx/map_boss_01.tmx",
+        "map-tmx/map01.tmx",
+        "mob/Idle-Sheet-Boar-LF.tsx",
+        "char/Idle-main-char-LF.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
